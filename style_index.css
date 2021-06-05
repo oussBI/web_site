@@ -1,0 +1,247 @@
+div.header {
+    width: 1800px;
+    height: 50px;
+    background-color: #00CCFF;
+}
+
+div.vertical-menu {
+    float: left;
+    width: 200px;
+    height: 800px;
+    position: absolute;
+}
+
+div.main {
+    width: 1600px;
+    height: 800px;
+    margin-left: 200px;
+    background-color: #FFCC00;
+}
+
+div.footer {
+    width: 1800px;
+    height: 50px;
+    background-color: #33FF99;
+    margin-left: 200px;
+    clear: both;
+}
+
+div.vertical-menu a {
+    border-style: groove;
+    background-color: #33ff9900;
+    /* Grey background color */
+    color: black;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 10px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+div.vertical-menu a:hover {
+    background-color: rgba(132, 146, 10, 0.692);
+    /* Dark grey background on mouse-over */
+}
+
+div.vertical-menu a.active {
+    background-color: #04AA6D;
+    /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+div.contenu {
+    width: 1600px;
+    height: 800px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+div.sous-contenu {
+    border-style: groove;
+    opacity: 0.8;
+    border-radius: 10%;
+    height: 1000px;
+    width: 500px;
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #04AA6D;
+}
+
+div.sous-contenu div.welcome {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+div.sous-contenu div.welcome video.robot-me {
+    border-radius: 10%;
+    margin-left: -40px;
+    position: relative;
+    width: 250px;
+    height: 260px;
+}
+
+div.sous-contenu div.welcome div.welcome-contenu {
+    position: relative;
+    margin-left: -50px;
+    width: 300px;
+    height: 100px;
+}
+
+div.exp {
+    width: 1600px;
+    height: 800px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+div.exp div.exp-contenu {
+    border-radius: 10%;
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(0, 128, 90);
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+html {
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th,
+tfoot th {
+    font-family: 'Rock Salt', cursive;
+}
+
+th {
+    letter-spacing: 2px;
+}
+
+td {
+    letter-spacing: 1px;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: right;
+}
+
+thead,
+tfoot {
+    background: url(static/ia.jpg);
+    opacity: 0.7;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+thead th,
+tfoot th,
+tfoot td {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+    border: 3px solid rgb(83, 151, 87);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #265c3b;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #265c3b;
+}
+
+tbody tr {
+    background-image: url(noise.png);
+}
+
+table {
+    background-color: #33ff81;
+}
+
+th.c4d:hover {
+    background-color: RED;
+}
+
+th.ratp:hover {
+    background-color: RED;
+}
+
+th.wevops:hover {
+    background-color: RED;
+}
+
+th.p5licence:hover {
+    background-color: RED;
+}
+
+th.p5master:hover {
+    background-color: RED;
+}
+
+th.ifocop:hover {
+    background-color: RED;
+}
+
+th.ms:hover {
+    background-color: RED;
+}
+
+th.oc:hover {
+    background-color: RED;
+}
+
+th.ibm:hover {
+    background-color: RED;
+}
+
+th.udemy:hover {
+    background-color: RED;
+}
+
+th.epfl:hover {
+    background-color: RED;
+}
+
+th.m2i:hover {
+    background-color: RED;
+}
+
+th.helsinki:hover {
+    background-color: RED;
+}

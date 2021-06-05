@@ -1,0 +1,47 @@
+div.exp {
+    width: 1600px;
+    height: 800px;
+    margin-left: 200px;
+    background-color: white;
+}
+
+div.exp div.exp-contenu {
+    border-style: groove;
+    opacity: 0.8;
+    border-radius: 10%;
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 200px;
+    background-color: #04AA6D;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
